@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:1-73:12
+	package
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+		INJECTED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml
+application
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:10:5-71:19
+service#com.qcl.vh.service.PollingService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:11:9-69
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:11:18-66
+service#com.qcl.vh.service.ListeningService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:12:9-71
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:12:18-68
+service#com.qcl.vh.service.BondingService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:13:9-69
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:13:18-66
+service#com.qcl.vh.service.PinEntryService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:14:9-70
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:14:18-67
+service#com.qcl.vh.service.NetworkService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:15:9-69
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:15:18-66
+service#com.qcl.vh.service.LoggingService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:16:9-69
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:16:18-66
+service#com.qcl.vh.service.ActivationService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:17:9-72
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:17:18-69
+service#com.qcl.vh.ble.BleService
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:18:9-61
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:18:18-58
+receiver#com.qcl.vh.receiver.BtBroadcastReceiver
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:20:9-30:20
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:20:19-73
+intent-filter#android.bluetooth.device.action.PAIRING_REQUEST
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:21:13-23:29
+action#android.bluetooth.device.action.PAIRING_REQUEST
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:22:17-90
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:22:25-87
+intent-filter#android.bluetooth.device.action.BOND_STATE_CHANGED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:24:13-26:29
+action#android.bluetooth.device.action.BOND_STATE_CHANGED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:25:17-93
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:25:25-90
+intent-filter#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:27:13-29:29
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:28:17-89
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:28:25-86
+receiver#com.qcl.vh.receiver.GenericBroadcastReceiver
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:31:19-78
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:33:17-79
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:33:25-76
+action#android.intent.action.TIME_SET
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:34:17-73
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:34:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:35:17-81
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:35:25-78
+receiver#com.qcl.vh.receiver.AppActionsReceiver
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:38:9-44:20
+	android:exported
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:39:13-66
+intent-filter#com.qcl.vh.action.START_SERVICES
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:41:13-43:29
+action#com.qcl.vh.action.START_SERVICES
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:42:17-75
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:42:25-72
+receiver#com.qcl.vh.receiver.UpgradeReceiver
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:45:9-49:20
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:45:19-69
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:46:13-48:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:47:17-84
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:47:25-81
+receiver#com.qcl.vh.receiver.UpgradeReceiverLegacy
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:50:9-56:20
+	android:enabled
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:52:13-64
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:51:13-69
+intent-filter#android.intent.action.PACKAGE_REPLACED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:53:13-55:29
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:54:17-81
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:54:25-78
+receiver#com.qcl.vh.receiver.ConnectivityChangeReceiver
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:57:9-63:20
+	android:enabled
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:58:13-74
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:60:13-62:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:61:17-79
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:61:25-76
+provider#com.qcl.vh.content.VirtualHubProvider
+ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:65:9-70:20
+	android:authorities
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:67:13-45
+	android:exported
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:68:13-36
+	android:permission
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:69:13-70
+	android:name
+		ADDED from /Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/src/main/AndroidManifest.xml:66:13-65

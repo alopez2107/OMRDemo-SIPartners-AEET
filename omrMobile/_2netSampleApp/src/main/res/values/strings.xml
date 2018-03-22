@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Open Med Ready</string>
+    <string name="parent_app_title">Open Med Ready</string>
+
+    <string name="application_id">FORGE00120180216145352</string>
+    <string name="just_now">Just now</string>
+    <string name="never">Never</string>
+    <string name="accept">Accept</string>
+    <string name="notification_title">New reading</string>
+    <string name="notification_message">New medical device reading was received</string>
+    <string name="active">Activation complete</string>
+    <string name="inactive">Activation incomplete</string>
+    <string name="enter_auth_code">Please verify</string>
+    <string name="auth_code">Username</string>
+    <string name="authenticating_title">Authenticating</string>
+    <string name="authenticating_message">Please wait&#8230;</string>
+    <string name="auth_err_dialog_title"> Error !!!</string>
+    <string name="auth_err_dialog_text">Authentication failed. Retry?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="cert_expired_notification_title">Certificate expired</string>
+    <string name="cert_expired_notification_message">Core certificate has expired. Please re-authenticate</string>
+    <string name="activation_notification_title">Activation Status</string>
+    <string name="activation_notification_message_active">Mobile Core activated</string>
+    <string name="activation_notification_message_inactive">    Mobile Core deactivated</string>
+</resources>

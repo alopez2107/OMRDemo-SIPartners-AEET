@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qcl.twonet.sampleapp"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="19"
+            android:targetSdkVersion="20" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 
+    	This permission protects who can receive raw sensor readings.
+    	Please NOTE the format: <package_name>.vh.permission.RECEIVE_SENSOR_READINGS
+    	If your package name changes please be sure to update this permission declaration accordingly.
+    -->
+    <permission android:name="com.qcl.twonet.sampleapp.vh.permission.RECEIVE_SENSOR_READINGS"  android:protectionLevel="signature"/>
+
+    <!-- 
+    	This permission protects access to the VH Content Provider
+    	Please NOTE the format: <package_name>..vh.permission.ACCESS_CONTENT
+       	If your package name changes please be sure to update this permission declaration accordingly.
+     -->
+    <permission android:name="com.qcl.twonet.sampleapp.vh.permission.ACCESS_CONTENT"  android:protectionLevel="signature"/>
+         
+    <!-- 
+    	This permission protects who can receive control events such as connection state, activation state etc.
+    	Please NOTE the format: <package_name>.vh.permission.RECEIVE_CONTROL_EVENTS
+    	If your package name changes please be sure to update this permission declaration accordingly.
+    -->
+    <permission android:name="com.qcl.twonet.sampleapp.vh.permission.RECEIVE_CONTROL_EVENTS" android:protectionLevel="signature"/>
+
+    <!-- VH required permissions -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 
+       Declare this if the app needs to receive raw readings as broadcasts.
+       Please see the comment in permission declaration.
+    -->
+    <uses-permission android:name="com.qcl.twonet.sampleapp.vh.permission.RECEIVE_SENSOR_READINGS"/>
+    <uses-permission android:name="com.qcl.twonet.sampleapp.vh.permission.RECEIVE_CONTROL_EVENTS"/>
+    <uses-permission android:name="com.qcl.twonet.sampleapp.vh.permission.ACCESS_CONTENT"/>
+
+
+
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+        android:icon="@drawable/omr"
+
+        android:name="com.qcl.twonet.sampleapp.ParentApp">
+
+        <activity android:name="com.qcl.twonet.sampleapp.ParentAppActivity"
+                  android:label="@string/parent_app_title"
+                  android:configChanges="keyboard|keyboardHidden|screenSize|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.qcl.twonet.sampleapp.EulaActivity"/>
+
+        <service android:name="com.qcl.vh.service.ContinuaHdpService" />
+
+        <!-- 2net event receivers -->
+        <receiver android:name="com.qcl.twonet.sampleapp.ReadingsReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.qcl.vh.action.READING_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.qcl.twonet.sampleapp.CertificateExpiredReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.qcl.vh.action.CERTIFICATE_EXPIRED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.qcl.twonet.sampleapp.ActivationStateChangedReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.qcl.vh.action.ACTIVATION_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 2net Mobile required declarations -->
+         <service android:name="com.qcl.vh.service.PollingService" />
+        <service android:name="com.qcl.vh.service.ListeningService" />
+        <service android:name="com.qcl.vh.service.BondingService" />
+        <service android:name="com.qcl.vh.service.PinEntryService" />
+        <service android:name="com.qcl.vh.service.NetworkService" />
+        <service android:name="com.qcl.vh.service.LoggingService" />
+        <service android:name="com.qcl.vh.service.ActivationService" />
+        <service android:name="com.qcl.vh.service.DiagnosticService" />
+        <service android:name="com.qcl.vh.ble.BleService" />
+        <service android:name="com.qcl.vh.ble.EnhancedBleService" android:enabled="@bool/enableEnhancedBleService" />
+
+        <receiver android:name="com.qcl.vh.receiver.BtBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.qcl.vh.receiver.GenericBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.qcl.vh.receiver.AppActionsReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.qcl.vh.action.START_SERVICES" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.qcl.vh.receiver.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.qcl.vh.receiver.UpgradeReceiverLegacy"
+            android:enabled="@bool/legacyUpdateListenerEnabled" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.qcl.vh.receiver.ConnectivityChangeReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Note: Authority of this provider must be same as the package name of this application -->
+        <provider
+            android:name="com.qcl.vh.content.VirtualHubProvider"
+            android:authorities="com.qcl.twonet.sampleapp;com.qcl.twonet.sampleapp.diagnostics"
+            android:exported="true"
+            android:permission="com.qcl.twonet.sampleapp.vh.permission.ACCESS_CONTENT"
+            tools:replace="android:authorities,android:permission">
+        </provider>
+   
+        <!-- End of 2net Mobile required declarations -->
+
+    </application>
+</manifest>

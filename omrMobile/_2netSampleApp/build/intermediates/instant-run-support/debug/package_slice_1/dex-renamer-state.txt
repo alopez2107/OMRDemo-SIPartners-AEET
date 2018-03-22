@@ -1,0 +1,4 @@
+#Thu Mar 01 18:28:04 CST 2018
+base.0=/Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netSampleApp/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex

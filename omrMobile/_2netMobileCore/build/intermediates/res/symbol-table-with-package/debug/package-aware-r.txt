@@ -1,0 +1,3 @@
+com.qcl.vh
+int bool enableEnhancedBleService 0x7f050001
+int bool legacyUpdateListenerEnabled 0x7f050002

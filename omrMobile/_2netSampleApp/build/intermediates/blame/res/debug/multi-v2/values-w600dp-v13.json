@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netSampleApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netSampleApp/src/main/res/values-w600dp/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "16",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "11",
+                        "endOffsets": "167"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "207"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/robbie.jones/Documents/dev/projects/omr/_2netSampleApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/robbie.jones/Documents/dev/projects/omr/_2netSampleApp/src/main/res/values-w600dp/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "16",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "11",
+                        "endOffsets": "167"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "207"
+                    }
+                }
+            ]
+        }
+    ]
+}

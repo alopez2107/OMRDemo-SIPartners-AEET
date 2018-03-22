@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:padding="30dp">
+
+    <TextView android:id="@+id/label_user"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/auth_code"
+              android:textSize="20sp"
+            />
+
+    <EditText
+            android:id="@+id/input_user"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/label_user"
+            android:textSize="20sp"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            />
+
+    <TextView
+        android:id="@+id/space"
+
+        android:layout_below="@+id/input_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:id="@+id/label_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_below="@+id/space"
+
+        />
+   <EditText
+        android:id="@+id/input_pwd"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@+id/label_pwd"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        />
+
+</RelativeLayout>

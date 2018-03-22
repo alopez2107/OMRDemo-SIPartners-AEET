@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/robbie.jones/Documents/dev/projects/omr/_2netMobileCore/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/robbie.jones/Documents/dev/projects/omr/_2netMobileCore/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/alex.lopez/Documents/Projects/Internal/OMR Demo/omr 3/_2netMobileCore/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                }
+            ]
+        }
+    ]
+}
