@@ -7,29 +7,24 @@ import omradminportal.UIConfiguration
 // Place your Spring DSL code here
 beans = {
     networkConfig(NetworkConfiguration) { bean ->
-        openAMURL = "https://openam.aeet.fridam.aeet-forgerock.com"
+        openAMURL = "http(s)://<OpenAM Host>:<OpenAM Port>"
         accessTokenService = "/openam/oauth2/access_token"
         registerUMAResourceSetService = "/openam/uma/resource_set"
-        openIDMURL = "https://openidm.aeet.fridam.aeet-forgerock.com"
-        openIDMAdminUserID = "openidm-admin"
-        openIDMAdminPassword = "openidm-admin"
+        openIDMURL = "http(s)://<OpenIDM Host>:<OpenIDM Port>"
+        openIDMAdminUserID = "<OpenIDM Admin UserID>"
+        openIDMAdminPassword = "<OpenIDM Admin Password>"
         partnerOrgResourceName = "partnerOrg"
         policyResourceName = "IoTManagementPolicy"
-        iecOpenAMURL = "http://myiot-am.forgerocklabs.net:8080"
-        iecROUserID = "ahall"
-        iecROUserPassword = "Passw0rd"
-        iecClientID = "imb"
-        iecClientSecret = "password2"
         bean.singleton = true
-        twoNetAuthKey = "34UJ76KJ"
-        accountId = "FORGE001"
-        mobileAppId = "FORGE00120180216145352"
+        twoNetAuthKey = "<2Net API Key>"
+        accountId = "<2Net Account ID>"
+        mobileAppId = "<2Net Mobile Application ID>"
         twoNetBaseURL = "https://twonet-int-gateway.qualcomm.com/demo3/cuc/rest/revY"
         umaRedirectURI = "http://aeet-apps.fridam.aeet-forgerock.com:8787/portal/activateDevice"
         umaRSClientID = "Uma-Resource-Server"
-        umaRSClientSecret = "password"
+        umaRSClientSecret = "<Uma-RS-Secret>"
         umaClientID = "UmaClient"
-        umaClientSecret = "Ilohcbe2107"
+        umaClientSecret = "<UmaClient Secret>"
         umaScopes = "openid%20uma_protection%20uma_authorization%20profile"
     }
 
