@@ -1,0 +1,5 @@
+{
+    "context" : "endpoint/twonetcommdata",
+    "type" : "groovy",
+    "file" : "TwoNetDataRetriever.groovy"
+}

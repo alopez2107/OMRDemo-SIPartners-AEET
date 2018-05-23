@@ -1,0 +1,4 @@
+{
+    "useDataSource" : "jdbc-default",
+    "workflowDirectory" : "&{launcher.project.location}/workflow"
+}

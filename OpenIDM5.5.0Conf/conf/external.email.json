@@ -1,0 +1,25 @@
+{
+    "host" : "smtp.sendgrid.net",
+    "port" : "2525",
+    "auth" : {
+        "enable" : true,
+        "username" : "algavilan2107",
+        "password" : {
+            "$crypto" : {
+                "type" : "x-simple-encryption",
+                "value" : {
+                    "cipher" : "AES/CBC/PKCS5Padding",
+                    "salt" : "Dt8UV1070nEncsf4zbjo2Q==",
+                    "data" : "PN9RgQG0XZ0M9A49Y/5Asg==",
+                    "iv" : "LsFouCt+5VLLNFIpxbDj8A==",
+                    "key" : "openidm-sym-default",
+                    "mac" : "4gWQUWzJJb8FeOlPHvBTYw=="
+                }
+            }
+        }
+    },
+    "starttls" : {
+        "enable" : true
+    },
+    "from" : "alex.lopez@forgerock.com"
+}
